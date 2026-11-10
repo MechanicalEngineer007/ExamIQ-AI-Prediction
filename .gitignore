@@ -1,0 +1,35 @@
+# Virtual Environment & Python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# Node.js & Dependencies
+node_modules/
+frontend/node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build Outputs (Compiled APK and binaries are published in GitHub Releases)
+frontend/dist/
+frontend/android/.gradle/
+frontend/android/build/
+frontend/android/app/build/
+frontend/android/capacitor-cordova-android-plugins/build/
+frontend/android/local.properties
+.gradle/
+build/
+*.apk
+*.aab
+
+# IDE & OS
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
